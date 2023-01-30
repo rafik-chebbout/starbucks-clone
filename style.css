@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 40px;
+    box-shadow: 0px 3px 0px -1px rgba(0,0,0,0.39);
+-webkit-box-shadow: 0px 3px 0px -1px rgba(0,0,0,0.39);
+-moz-box-shadow: 0px 3px 0px -1px rgba(0,0,0,0.39);
+background-color: white;
+}
+nav .nav-left{
+    display: flex;
+    align-items: center;
+}
+nav .nav-right{
+    margin-left: 20px;
+}
+
+nav .nav-right a {
+    padding-left: 10px;
+    text-decoration: none;
+
+}
+.n{
+    color: black;
+    font-weight: bolder;
+}
+.btton-1{
+    border: 1px black solid;
+    padding: 10px 20px 10px 20px;
+    border-radius: 40px;
+    color: black;
+    font-weight: bolder;
+}
+.btton-2{
+    border: 1px black solid;
+    padding: 10px 20px 10px 20px;
+    border-radius: 40px;
+    background: black;
+    color: white;
+    font-weight: bolder;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    color: #00653e;
+  }
+nav img{
+    height: 50px;
+    width: 50px;
+}
+main{
+    display: flex;
+    background-color: #f7f8fc;
+}
+main .left
+ {
+    background: green;
+    background-image: url("./1.png");
+    background-color: #cccccc;
+    height: 100vh;
+    width: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    position: sticky;
+    top: 0;
+    
+   }
+   main .left p{
+    color: white;
+    position: absolute;
+    top: 70%;
+    left:25%;
+    font-weight: bolder;
+}
+   main .left a{
+    border: 1px white solid;
+    padding: 10px 20px 10px 20px;
+    border-radius: 40px;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    position: absolute;
+    top: 75%;
+    left:25%;
+   }
+   main .right img{
+    width: 100%;
+   }
+   main .right h1{
+    color: rgba(0, 0, 0, 0.9);
+    padding: 20px 50px;
+   }
+   main .right a{
+    border: 1px green solid;
+    padding: 10px 20px 10px 20px;
+    border-radius: 40px;
+    color: green;
+    font-weight: bolder;
+    text-decoration: none;
+    margin: 20px 50px;
+   }
+   main .cards1{
+    padding: 120px 50px;
+   }
+   main .cards1 h2{
+    font-size: 0.9rem;
+   }
+
+   main .cards1 .card{
+    display: flex;
+
+   }
+   main .cards1 .card img{
+    height: 320px;
+    width: 320px;
+    padding: 20px 0px;
+   }
+   main .cards1 .card .card-right{
+    padding: 20px 50px;
+   }
+   main .cards1 .card .card-right h2{
+    font-size: 1.2rem;
+   }
+   main .cards1 .card .card-right p {
+    padding: 20px 0px;
+    color: rgba(0, 0, 0, 0.79);
+   }
+   main .cards1 .card .card-right a {
+    margin: 20px 0px;
+   }
+   
+   main .cards2{
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    gap: 1rem;
+    padding: 0px 50px;
+   }
+   main .cards2 .card {
+    
+    background-color: #fff;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    gap: 16px;
+    width: 320px;
+  }
+  .card-header img {
+    width: 320px;
+    height: 225px;
+    object-fit: cover;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 20px;
+    min-height: 250px;
+  }
+  main .card-body h2{
+    font-size: 1.2rem;
+  }
+  
+  main .card-body p {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.794);
+    margin: 0 0 20px;
+    padding-top: 10px;
+  }
+  .cardss{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+
+
+  main .cards3{
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    gap: 1rem;
+    padding: 20px 50px;
+   }
+   main .cards3 .card {
+    
+    background-color: #fff;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    gap: 16px;
+    width: 320px;
+  }
+  .card-header img {
+    width: 320px;
+    height: 225px;
+    object-fit: cover;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 20px;
+    min-height: 250px;
+  }
+  main .card-body h2{
+    font-size: 1.2rem;
+  }
+  
+  main .card-body p {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.794);
+    margin: 0 0 20px;
+    padding-top: 10px;
+  }
+  
+  main .right a:hover{
+    background-color: rgba(0, 128, 0, 0.1);
+  }
